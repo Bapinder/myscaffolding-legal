@@ -1,0 +1,247 @@
+<title>My Scaffolding Ltd Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+<style>
+/* The policy is set in the app's own typefaces — Barlow and Barlow Condensed —
+   so the document reads as part of the product it describes, not a pasted template. */
+:root{
+  --ground:#f2f4f6;
+  --sheet:#ffffff;
+  --ink:#131a21;
+  --ink-2:#5a6874;
+  --ink-3:#8695a3;
+  --rule:#dfe5ea;
+  --rule-2:#eef1f4;
+  --steel:#1d4667;
+  --hazard:#e0a417;
+  --sans:"Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --cond:"Barlow Condensed","Barlow",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0c1117;
+    --sheet:#141b23;
+    --ink:#e6ecf2;
+    --ink-2:#9dabb8;
+    --ink-3:#75828e;
+    --rule:#232d38;
+    --rule-2:#1b232c;
+    --steel:#8fbde6;
+    --hazard:#ffd34d;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0c1117;
+  --sheet:#141b23;
+  --ink:#e6ecf2;
+  --ink-2:#9dabb8;
+  --ink-3:#75828e;
+  --rule:#232d38;
+  --rule-2:#1b232c;
+  --steel:#8fbde6;
+  --hazard:#ffd34d;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.62;
+  -webkit-text-size-adjust:100%;
+}
+.sheet{
+  max-width:44rem;
+  margin:0 auto;
+  background:var(--sheet);
+  border-left:1px solid var(--rule);
+  border-right:1px solid var(--rule);
+  padding:clamp(28px,6vw,64px) clamp(20px,5vw,60px) 96px;
+}
+
+/* Masthead: a hazard-yellow rule is the one flourish, lifted straight off the app icon. */
+.mast{border-bottom:1px solid var(--rule);padding-bottom:26px;margin-bottom:34px}
+.rule-hazard{width:64px;height:5px;background:var(--hazard);border-radius:2px;margin-bottom:20px}
+h1{
+  font-family:var(--cond);
+  font-weight:700;
+  font-size:clamp(30px,6vw,42px);
+  line-height:1.1;
+  letter-spacing:.005em;
+  margin:0 0 6px;
+  text-wrap:balance;
+}
+.sub{font-size:19px;color:var(--ink-2);margin:0 0 22px}
+.meta{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:14px 26px;
+  margin:0;
+}
+.meta div{display:flex;flex-direction:column;gap:2px}
+.meta dt{
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--ink-3);
+}
+.meta dd{margin:0;font-size:16px;color:var(--ink)}
+
+.lede{font-size:18px;color:var(--ink-2);margin:0 0 8px}
+
+h2{
+  font-family:var(--cond);
+  font-weight:700;
+  font-size:25px;
+  letter-spacing:.005em;
+  margin:42px 0 12px;
+  padding-top:20px;
+  border-top:1px solid var(--rule-2);
+  text-wrap:balance;
+}
+h2:first-of-type{border-top:0;padding-top:0}
+p{margin:0 0 15px;max-width:65ch}
+strong{font-weight:600}
+a{color:var(--steel);text-decoration-thickness:1px;text-underline-offset:2px}
+a:focus-visible,:focus-visible{outline:2px solid var(--steel);outline-offset:3px;border-radius:3px}
+
+.tablewrap{overflow-x:auto;margin:0 0 20px}
+table{border-collapse:collapse;width:100%;min-width:33rem;font-size:15.5px}
+th,td{border-bottom:1px solid var(--rule-2);padding:11px 14px 11px 0;text-align:left;vertical-align:top}
+th{
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:var(--ink-3);
+  border-bottom:1px solid var(--rule);
+  padding-top:0;
+}
+td:first-child{font-weight:500;padding-right:22px}
+td:not(:first-child){color:var(--ink-2);padding-right:22px}
+
+/* The one thing a reader must not skim past. */
+.notice{
+  border-left:3px solid var(--hazard);
+  background:var(--ground);
+  padding:15px 18px;
+  margin:0 0 18px;
+  border-radius:0 5px 5px 0;
+}
+.notice p:last-child{margin-bottom:0}
+
+.foot{
+  margin-top:52px;
+  padding-top:20px;
+  border-top:1px solid var(--rule);
+  font-size:14.5px;
+  color:var(--ink-3);
+}
+</style>
+
+<article class="sheet">
+
+  <header class="mast">
+    <div class="rule-hazard"></div>
+    <h1>Privacy Policy</h1>
+    <p class="sub">The My Scaffolding Ltd app, for iPhone and Android</p>
+    <dl class="meta">
+      <div><dt>Last updated</dt><dd>25 August 2026</dd></div>
+      <div><dt>Data controller</dt><dd>My Scaffolding Ltd</dd></div>
+      <div><dt>Contact</dt><dd><a href="mailto:bapinder.singh@devanhaar.com">bapinder.singh@devanhaar.com</a></dd></div>
+    </dl>
+  </header>
+
+  <p class="lede">This policy is written to be read, not to be waved at a regulator. It says plainly
+  what the app holds, where it goes, and who can see it.</p>
+
+  <h2>What the app is for</h2>
+  <p>The app records scaffolding jobs: who a scaffold is for, where it is, what it is worth, when it
+  went up and when it came down. It is used by the staff of My Scaffolding Ltd, not by the public.</p>
+
+  <h2>What the app stores</h2>
+  <p>Everything below is entered by the person using the app, or captured at the moment they tap a
+  button asking for it.</p>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>What</th><th>Why it is held</th><th>How it is captured</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Client name, site address, contact name and phone number</td><td>To identify whose scaffold it is and who to ring</td><td>Typed in</td></tr>
+        <tr><td>Crew member names</td><td>So a job shows who did what</td><td>Typed in</td></tr>
+        <tr><td>Job value and weekly hire rate</td><td>To track hire earned</td><td>Typed in</td></tr>
+        <tr><td>Photographs of scaffolds and sites</td><td>Evidence of what was erected</td><td>Camera or photo library, only when you choose a photo</td></tr>
+        <tr><td>GPS coordinates of a site or of the yard</td><td>To pin a site and show its distance from the yard</td><td>Device location, only when you tap “Use my location”</td></tr>
+        <tr><td>A signature drawn on screen</td><td>On the handover certificate</td><td>Drawn with a finger</td></tr>
+        <tr><td>A four-digit PIN, if set</td><td>So sign-offs are attributed to a person</td><td>Typed in</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>The app does not collect</strong> analytics, advertising identifiers, crash telemetry,
+  contacts, calendars, microphone audio, health data, or background location. There are no
+  third-party trackers or advertising SDKs of any kind.</p>
+
+  <h2>Where it is stored</h2>
+  <p><strong>On your device.</strong> By default everything stays in the app’s own storage on that
+  phone. Nothing leaves it.</p>
+  <p><strong>On our server, only if you start or join a shared tracker.</strong> If you choose
+  “Start a shared tracker”, the record is stored on our behalf by <strong>Supabase Inc.</strong>,
+  which hosts the database in the <strong>eu-west-1 (Ireland)</strong> region.</p>
+  <div class="notice">
+    <p>Everyone holding the eight-character join code can read and change that tracker’s contents.
+    Treat the code like a key to the office: anyone you give it to can see the jobs, the photographs
+    and the client details inside it.</p>
+  </div>
+  <p>Supabase acts as our data processor. Their privacy terms are at
+  <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
+
+  <h2>Location</h2>
+  <p>Location is read <strong>only</strong> at the moment you tap “Use my location”, and only while
+  the app is open. The app never tracks location in the background and never follows a phone’s
+  movement. What is stored is a single pair of coordinates attached to a job or to the yard.</p>
+
+  <h2>Photographs</h2>
+  <p>Photographs are reduced in size on the way in and stored with the job. They are not uploaded
+  anywhere except to a shared tracker, if you are using one. The app reads only the images you
+  explicitly pick or take; it does not scan your photo library.</p>
+
+  <h2>Who we share it with</h2>
+  <p>Nobody, other than Supabase as our hosting provider. We do not sell data, we do not share it
+  for advertising, and we do not pass it to analytics companies. Documents produced by the app —
+  job sheets and handover certificates — leave the app only when <em>you</em> send them, using your
+  phone’s own share sheet.</p>
+
+  <h2>How long we keep it</h2>
+  <p>Until it is deleted. Anyone using a tracker can delete a job, and “Erase everything” in
+  Settings clears the whole record from the device. To have a shared tracker deleted from our
+  server, write to the address at the top of this page.</p>
+
+  <h2>Your rights</h2>
+  <p>Under UK GDPR you may ask us for a copy of the personal data we hold about you, ask us to
+  correct it, ask us to delete it, or object to our holding it. Write to the contact address above
+  and we will respond within one month. You may also complain to the Information Commissioner’s
+  Office at <a href="https://ico.org.uk">ico.org.uk</a>.</p>
+  <p>Our lawful basis for holding client and site details is <strong>legitimate interest</strong> —
+  running a scaffolding business and meeting the inspection-record duties that come with it.</p>
+
+  <h2>Children</h2>
+  <p>The app is a work tool for scaffolders. It is not directed at children and we do not knowingly
+  collect data from anyone under 16.</p>
+
+  <h2>Security</h2>
+  <p>Data travels to our server over HTTPS. The database is not readable without a valid join code,
+  and the underlying table is closed to direct access. Because a join code alone grants access, the
+  security of a shared tracker rests on keeping that code within your firm.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes we will update the date at the top and publish the new version at the
+  same address.</p>
+
+  <p class="foot">My Scaffolding Ltd · Privacy Policy · 25 August 2026</p>
+
+</article>
