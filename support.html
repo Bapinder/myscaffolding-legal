@@ -1,0 +1,116 @@
+<title>My Scaffolding Ltd Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+<style>
+:root{
+  --ground:#f2f4f6; --sheet:#ffffff; --ink:#131a21; --ink-2:#5a6874; --ink-3:#8695a3;
+  --rule:#dfe5ea; --rule-2:#eef1f4; --steel:#1d4667; --hazard:#e0a417;
+  --sans:"Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --cond:"Barlow Condensed","Barlow",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0c1117; --sheet:#141b23; --ink:#e6ecf2; --ink-2:#9dabb8; --ink-3:#75828e;
+    --rule:#232d38; --rule-2:#1b232c; --steel:#8fbde6; --hazard:#ffd34d;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0c1117; --sheet:#141b23; --ink:#e6ecf2; --ink-2:#9dabb8; --ink-3:#75828e;
+  --rule:#232d38; --rule-2:#1b232c; --steel:#8fbde6; --hazard:#ffd34d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:17px;line-height:1.62;-webkit-text-size-adjust:100%}
+.sheet{max-width:44rem;margin:0 auto;background:var(--sheet);
+  border-left:1px solid var(--rule);border-right:1px solid var(--rule);
+  padding:clamp(28px,6vw,64px) clamp(20px,5vw,60px) 96px}
+.mast{border-bottom:1px solid var(--rule);padding-bottom:26px;margin-bottom:34px}
+.rule-hazard{width:64px;height:5px;background:var(--hazard);border-radius:2px;margin-bottom:20px}
+h1{font-family:var(--cond);font-weight:700;font-size:clamp(30px,6vw,42px);line-height:1.1;
+  margin:0 0 6px;text-wrap:balance}
+.sub{font-size:19px;color:var(--ink-2);margin:0}
+h2{font-family:var(--cond);font-weight:700;font-size:25px;margin:42px 0 12px;padding-top:20px;
+  border-top:1px solid var(--rule-2);text-wrap:balance}
+h2:first-of-type{border-top:0;padding-top:0}
+h3{font-family:var(--sans);font-weight:600;font-size:17.5px;margin:24px 0 4px}
+p{margin:0 0 15px;max-width:65ch}
+strong{font-weight:600}
+a{color:var(--steel);text-decoration-thickness:1px;text-underline-offset:2px}
+:focus-visible{outline:2px solid var(--steel);outline-offset:3px;border-radius:3px}
+.contact{border-left:3px solid var(--hazard);background:var(--ground);padding:15px 18px;
+  margin:0 0 18px;border-radius:0 5px 5px 0}
+.contact p:last-child{margin-bottom:0}
+.foot{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
+  font-size:14.5px;color:var(--ink-3)}
+</style>
+
+<article class="sheet">
+  <header class="mast">
+    <div class="rule-hazard"></div>
+    <h1>Support</h1>
+    <p class="sub">The My Scaffolding Ltd app, for iPhone and Android</p>
+  </header>
+
+  <div class="contact">
+    <p><strong>Need a hand?</strong> Write to
+    <a href="mailto:myscaffoldingltd13@outlook.com">myscaffoldingltd13@outlook.com</a>
+    and tell us what the app did and what you expected instead. We answer within two working days.</p>
+  </div>
+
+  <h2>Getting started</h2>
+  <p>Open the app and tap <strong>+ New job</strong>. A job needs a client, a site and a date it
+  goes up — everything else can wait. When the scaffold is up, set the date it went up, and the
+  app takes over from there: it starts the hire clock and schedules the first inspection.</p>
+
+  <h2>Sharing with your crew</h2>
+  <h3>Starting a shared tracker</h3>
+  <p>Settings → <strong>Start a shared tracker</strong>. You get an eight-character code. Read it
+  out to your lads or send it on.</p>
+  <h3>Joining one</h3>
+  <p>Settings → <strong>Join</strong>, then type the code. Case and spaces do not matter. From
+  then on everything anyone changes reaches everybody.</p>
+  <h3>Keep the code to your firm</h3>
+  <p>Anyone holding the code can see and change the tracker. There are no passwords — the code is
+  the key. If it gets out, start a fresh tracker and move over.</p>
+
+  <h2>Inspections</h2>
+  <p>A scaffold that goes up gets an inspection due seven days later, and your phone reminds you
+  the morning it falls due. Tap <strong>Inspected today</strong> and the clock rolls forward
+  another seven days. It stops by itself once the scaffold comes down.</p>
+  <p>You can change the interval, or switch reminders off altogether, in Settings.</p>
+  <p><strong>Not getting reminders?</strong> Check the app is allowed to notify you:
+  iPhone Settings → Notifications → My Scaffolding Ltd. On Android, Settings → Apps →
+  My Scaffolding Ltd → Notifications.</p>
+
+  <h2>Photos and location</h2>
+  <p>Both are optional and only ever asked for at the moment you tap the button that needs them.
+  The app works fully if you say no to either.</p>
+  <p>Photos are shrunk on the way in, so they cost very little room. If the app warns you it is
+  filling up, export a backup from Settings and delete photos from old jobs that are long down.</p>
+
+  <h2>Backups</h2>
+  <p>Settings → <strong>Export backup</strong> writes a file you can send to yourself and keep.
+  <strong>Import backup</strong> puts it back. Worth doing now and then, especially if you are
+  working on one phone rather than a shared tracker.</p>
+
+  <h2>Common questions</h2>
+  <h3>Does it work without a signal?</h3>
+  <p>Yes. Everything except syncing a shared tracker works with no signal at all, including the
+  site map. Changes catch up the next time you have one.</p>
+  <h3>Can I use it on more than one phone?</h3>
+  <p>Yes — that is what a shared tracker is for. Without one, each phone keeps its own separate
+  copy.</p>
+  <h3>Two of us saved at the same time. What happens?</h3>
+  <p>Nothing is lost. The app merges job by job: whoever touched a particular job last keeps it,
+  and jobs only one of you touched are all kept.</p>
+  <h3>How do I delete everything?</h3>
+  <p>Settings → <strong>Erase everything</strong> clears the phone. To have a shared tracker
+  removed from our server as well, write to the address above.</p>
+
+  <h2>Privacy</h2>
+  <p>What the app holds and where it goes is set out in full in the
+  <a href="./">privacy policy</a>.</p>
+
+  <p class="foot">My Scaffolding Ltd · Support</p>
+</article>
