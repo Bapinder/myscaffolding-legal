@@ -2,7 +2,7 @@
 
 **Last updated:** 25 August 2026
 **Data controller:** My Scaffolding Ltd
-**Contact:** myscaffoldingltd13@outlook.com
+**Contact:** myscaffoldingltd@outlook.com
 
 This policy covers the **Scaffolding** app for iPhone and Android. It is written to be read,
 not to be waved at a regulator, so it says plainly what the app holds and where it goes.
