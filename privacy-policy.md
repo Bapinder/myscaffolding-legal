@@ -22,6 +22,7 @@ asking for it.
 | What | Why | How it is captured |
 |---|---|---|
 | **Client name, site address, contact name and phone number** | To identify whose scaffold it is and who to ring | Typed in |
+| **The email address you sign in with** | It is your account, and how the tracker’s owner gives you access | Typed in when you create an account |
 | **Crew member names** | So a job shows who did what | Typed in |
 | **Job value and weekly hire rate** | To track hire earned | Typed in |
 | **Photographs of scaffolds and sites** | Evidence of what was erected | Camera or photo library, only when you choose a photo |
@@ -40,7 +41,8 @@ leaves it.
 
 **On our server, only if you start or join a shared tracker.** If you choose "Start a shared
 tracker", the record is stored on our behalf by **Supabase Inc.**, which hosts the database.
-Everyone who has the eight-character join code can read and change that tracker's contents.
+The owner decides who can see a tracker, by inviting them at their email address. Anyone given
+access can read it; those given edit access can change it.
 Treat the code like a key to the office: anyone you give it to can see the jobs, the photos and
 the client details in it.
 
